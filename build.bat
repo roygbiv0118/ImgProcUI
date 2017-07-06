@@ -1,6 +1,5 @@
 @ECHO OFF
 
-::SET QT_DIR=D:\Qt\Qt5.6.0\5.6\msvc2013
 SET QT_DIR=D:\SDK\qt-5.4_x86_vc120
 SET OPENCV_DIR=D:\SDK\opencv_3.0.0\build
 
