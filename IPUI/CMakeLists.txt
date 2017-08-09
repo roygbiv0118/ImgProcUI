@@ -33,13 +33,12 @@ endif()
 FILE(GLOB HEADERS "include/*.h")
 FILE(GLOB SOURCES "src/*.cpp")
 FILE(GLOB FORMS "form/*.ui")
-FILE(GLOB RES "src/*.rc")
 
 qt5_wrap_cpp(MOC_HEADERS ${HEADERS})
 qt5_wrap_ui(FORMS_HEADERS ${FORMS})
 
 ###No ${MOC_HEADERS}
-add_executable(IPUI WIN32 ${HEADERS} ${SOURCES} ${FORMS} ${FORMS_HEADERS} ${RES})
+add_executable(IPUI WIN32 ${HEADERS} ${SOURCES} ${FORMS} ${FORMS_HEADERS})
 
 
 ###############################################
