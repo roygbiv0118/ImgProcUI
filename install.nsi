@@ -13,8 +13,8 @@
 
 ; MUI Settings
 !define MUI_ABORTWARNING
-!define MUI_ICON "Res\Logo.ico"
-!define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
+!define MUI_ICON "Res\seLogo.ico"
+!define MUI_UNICON "Res\unLogo.ico"
 
 ; Welcome page
 !insertmacro MUI_PAGE_WELCOME
@@ -80,8 +80,8 @@ Section "MainSection" SEC01
   File "Config\config.ini"
   SetOutPath "$INSTDIR\Res"
   SetOverwrite ifnewer
-  File "Res\160615\1311052047546.jpg"
-  File "Res\160616\1311051443651.jpg"
+  File "Res\test\1311052047546.jpg"
+  File "Res\test\1311051443651.jpg"
   File "Res\circle.png"
   File "Res\mx_zh.qm"
 SectionEnd
